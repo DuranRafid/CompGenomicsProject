@@ -27,7 +27,7 @@ class Decoder(nn.Module):
     def forward(self,z):
         z = F.relu(self.fc1(z))
         z = F.relu(self.fc2(z))
-        x = self.fc3(z)
+        x = F.sigmoid(self.fc3(z))
         return x
 
 class VAE(nn.Module):

@@ -11,7 +11,7 @@ def vae_loss(input_mat, output_mat, mu, logvar, beta=10):
 
 def ST_SCDeconvloss(gene_topicST, gene_topicSC):
     n = gene_topicST.size(0)
-    loss = F.mse_loss(gene_topicSC, gene_topicSC)
+    loss = F.mse_loss(gene_topicSC, gene_topicSC,reduction="sum").div(n)
     return loss
 
 def totalloss(STMat, STMat_Recon, SCMat, SCMat_Recon, STZ_mu, STZ_logvar, SCZ_mu, SCZ_logvar, gene_topicST, gene_topicSC,beta=10):

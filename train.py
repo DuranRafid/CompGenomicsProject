@@ -7,7 +7,7 @@ def save_ckp(state, f_path='./best_model.pt'):
     torch.save(state, f_path)
 
 
-def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 1000, n_spots=200, n_cells=600, n_topic=50,data_loader=None):
+def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 1000, n_spots=200, n_cells=600, n_topic=200,data_loader=None):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = STDeconv(number_of_genes=n_genes, number_of_spots=n_spots, number_of_cells=n_cells, topic=n_topic).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
