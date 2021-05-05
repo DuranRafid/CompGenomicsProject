@@ -13,7 +13,7 @@ scRNAnp = scRNApd.to_numpy()
 
 # Remove genes with 0 expression across all cells
 indices = scRNAnp.mean(axis=1) > np.zeros(scRNAnp.shape[0])
-scRNAnp = scRNAnp[indices, :]
+scRNAnonzero = scRNAnp[indices, :]
 scNames = list(scRNApd.index[indices])
 
 # Read in h5 ST file
@@ -48,16 +48,24 @@ for i in range(len(stNames)):
 intGenes = list(set(scNames) & set(stNames))
 
 # Further select top 2000 highly expressed genes in scRNAseq dataset
-scRNApd = scRNApd.loc[intGenes]
-scRNAnp = scRNApd.to_numpy()
-cv = scRNAnp.var(axis=1) / scRNAnp.mean(axis=1)
+scRNAintGenes = scRNApd.loc[intGenes]
+scRNAigNP = scRNAintGenes.to_numpy()
+cv = scRNAigNP.var(axis=1) / scRNAigNP.mean(axis=1)
 cv_sort = np.argsort(cv)
 top = cv_sort[-500:]
-scRNAnp = scRNAnp[top, :]
-#np.save('datasets/sc_2000.npy', scRNAnp)
+print(scRNAigNP.shape)
+scRNAtop500 = scRNAigNP[top, :]
+print(scRNAtop500.shape)
+
+scRNAc = pd.read_csv('datasets/GSE71585_RefSeq_counts.csv', index_col=0)
+scRNAcIntGenes = scRNAc.loc[intGenes]
+print(scRNAcIntGenes.shape)
+scRNActop = scRNAcIntGenes.to_numpy()[top, :]
+print(scRNActop.shape)
+np.save('datasets/sc_500.npy', scRNActop)
 
 # Choose these genes in ST data, construct gene x spot matrix
-genes = list(scRNApd.index[top])
+genes = list(scRNAcIntGenes.index[top])
 geneIdx = [np.int(fdict[g]) for g in genes]
 
 # For each gene, iterate over spots and grab count
