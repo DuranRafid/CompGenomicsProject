@@ -5,12 +5,15 @@ import torch
 from torch.utils.data import DataLoader
 from train import train_network
 if __name__ == '__main__':
-    number_of_genes = 100
-    number_of_spots = 50
-    number_of_cells = 60
+    STMat = np.load('st_500.npy')
+    SCMat = np.load('sc_500.npy')
+    number_of_genes,number_of_spots = STMat.shape
+    number_of_genes1, number_of_cells = SCMat.shape
+
+    assert number_of_genes == number_of_genes1
+
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    STMat = np.random.rand(number_of_genes, number_of_spots)
-    SCMat = np.random.rand(number_of_genes, number_of_cells)
+
     ST_Tensor = torch.from_numpy(STMat).float()
     SC_Tensor = torch.from_numpy(SCMat).float()
     ST_Tensor = torch.flatten(ST_Tensor).repeat(100,1)
