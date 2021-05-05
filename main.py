@@ -26,7 +26,7 @@ if __name__ == '__main__':
     SC_Dataloader = DataLoader(SC_Tensor, batch_size=2,shuffle=False)
     ST_Dataloader = DataLoader(ST_Tensor, batch_size=2,shuffle=False)
     dataloader =  zip(ST_Dataloader,SC_Dataloader)
-    train_network(data_loader=dataloader,n_genes=number_of_genes,n_spots=number_of_spots,n_cells=number_of_cells,n_topic=20)
+    train_network(data_loader=dataloader,n_genes=number_of_genes,n_spots=number_of_spots,n_cells=number_of_cells,n_topic=500)
 
 
 
