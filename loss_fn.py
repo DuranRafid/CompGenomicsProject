@@ -18,5 +18,5 @@ def totalloss(STMat, STMat_Recon, SCMat, SCMat_Recon, STZ_mu, STZ_logvar, SCZ_mu
     STloss = vae_loss(STMat, STMat_Recon, STZ_mu, STZ_logvar,beta)
     SCloss = vae_loss(SCMat, SCMat_Recon, SCZ_mu, SCZ_logvar,beta)
     SCSTloss = ST_SCDeconvloss(gene_topicST, gene_topicSC)
-    total_loss = STloss + SCloss + SCSTloss
+    total_loss = STloss + SCloss #+ SCSTloss
     return total_loss
