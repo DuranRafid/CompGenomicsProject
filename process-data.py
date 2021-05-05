@@ -2,6 +2,11 @@ import numpy as np
 import pandas as pd
 import h5py
 
+# Read in Mouse brain scRNAseq cell types
+scRNAclusters = pd.read_csv('datasets/GSE71585_Clustering_Results.csv')
+print(scRNAclusters.columns)
+scRNAclusters.to_csv('sc_cell_types.txt', columns=['broad_type'])
+
 # Read in TPM-normalized Mouse brain scRNAseq dataset
 scRNApd = pd.read_csv('datasets/GSE71585_RefSeq_TPM.csv', index_col=0)
 scRNAnp = scRNApd.to_numpy()
@@ -47,7 +52,7 @@ scRNApd = scRNApd.loc[intGenes]
 scRNAnp = scRNApd.to_numpy()
 cv = scRNAnp.var(axis=1) / scRNAnp.mean(axis=1)
 cv_sort = np.argsort(cv)
-top = cv_sort[-2000:]
+top = cv_sort[-500:]
 scRNAnp = scRNAnp[top, :]
 #np.save('datasets/sc_2000.npy', scRNAnp)
 
@@ -56,23 +61,28 @@ genes = list(scRNApd.index[top])
 geneIdx = [np.int(fdict[g]) for g in genes]
 
 # For each gene, iterate over spots and grab count
-nSpots = f['matrix/barcodes'].shape[0]
-stData = np.zeros((2000, nSpots))
+# nSpots = f['matrix/barcodes'].shape[0]
+# stData = np.zeros((2000, nSpots))
+#
+# for j in range(nSpots):
+#     if j % 100 == 0:
+#         print(j)
+#     leftIdx = f['matrix/indptr'][j]
+#     rightIdx = f['matrix/indptr'][j+1]
+#     spotGenes = list(f['matrix/indices'][leftIdx:rightIdx])
+#     for i in range(2000):
+#         gene = geneIdx[i]
+#         if gene in spotGenes:
+#             idx = spotGenes.index(gene)
+#             spotCounts = list(f['matrix/data'][leftIdx:rightIdx])
+#             stData[i, j] = spotCounts[idx]
+#         else:
+#             stData[i, j] = 0
+#
+# np.save('datasets/st_2000.npy', stData)
 
-for j in range(nSpots):
-    if j % 100 == 0:
-        print(j)
-    leftIdx = f['matrix/indptr'][j]
-    rightIdx = f['matrix/indptr'][j+1]
-    spotGenes = list(f['matrix/indices'][leftIdx:rightIdx])
-    for i in range(2000):
-        gene = geneIdx[i]
-        if gene in spotGenes:
-            idx = spotGenes.index(gene)
-            spotCounts = list(f['matrix/data'][leftIdx:rightIdx])
-            stData[i, j] = spotCounts[idx]
-        else:
-            stData[i, j] = 0
+# Normalize stData with TPM normalization
+print(genes)
 
-np.save('datasets/st_2000.npy', stData)
+stRaw = np.load('st_500.npy')
 

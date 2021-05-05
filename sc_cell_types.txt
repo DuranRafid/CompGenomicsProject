@@ -1,0 +1,1810 @@
+,broad_type
+0,Astrocyte
+1,Astrocyte
+2,Astrocyte
+3,Astrocyte
+4,Astrocyte
+5,Astrocyte
+6,Astrocyte
+7,Astrocyte
+8,Astrocyte
+9,Astrocyte
+10,Astrocyte
+11,Astrocyte
+12,Astrocyte
+13,Astrocyte
+14,Astrocyte
+15,Astrocyte
+16,Astrocyte
+17,Astrocyte
+18,Astrocyte
+19,Astrocyte
+20,Astrocyte
+21,Astrocyte
+22,Astrocyte
+23,Astrocyte
+24,Astrocyte
+25,Astrocyte
+26,Astrocyte
+27,Astrocyte
+28,Astrocyte
+29,Astrocyte
+30,Astrocyte
+31,Astrocyte
+32,Astrocyte
+33,Astrocyte
+34,Astrocyte
+35,Astrocyte
+36,Astrocyte
+37,Astrocyte
+38,Astrocyte
+39,Astrocyte
+40,Astrocyte
+41,Astrocyte
+42,Astrocyte
+43,GABA-ergic Neuron
+44,GABA-ergic Neuron
+45,GABA-ergic Neuron
+46,GABA-ergic Neuron
+47,GABA-ergic Neuron
+48,GABA-ergic Neuron
+49,GABA-ergic Neuron
+50,GABA-ergic Neuron
+51,GABA-ergic Neuron
+52,GABA-ergic Neuron
+53,GABA-ergic Neuron
+54,GABA-ergic Neuron
+55,GABA-ergic Neuron
+56,Endothelial Cell
+57,Endothelial Cell
+58,Endothelial Cell
+59,Endothelial Cell
+60,Endothelial Cell
+61,Endothelial Cell
+62,Endothelial Cell
+63,Endothelial Cell
+64,Endothelial Cell
+65,Endothelial Cell
+66,Endothelial Cell
+67,Endothelial Cell
+68,Endothelial Cell
+69,Endothelial Cell
+70,Endothelial Cell
+71,Endothelial Cell
+72,Endothelial Cell
+73,Endothelial Cell
+74,Endothelial Cell
+75,Endothelial Cell
+76,Endothelial Cell
+77,Endothelial Cell
+78,Endothelial Cell
+79,Endothelial Cell
+80,Endothelial Cell
+81,Endothelial Cell
+82,Endothelial Cell
+83,Endothelial Cell
+84,Endothelial Cell
+85,GABA-ergic Neuron
+86,GABA-ergic Neuron
+87,GABA-ergic Neuron
+88,GABA-ergic Neuron
+89,GABA-ergic Neuron
+90,GABA-ergic Neuron
+91,GABA-ergic Neuron
+92,GABA-ergic Neuron
+93,GABA-ergic Neuron
+94,GABA-ergic Neuron
+95,Glutamatergic Neuron
+96,Glutamatergic Neuron
+97,Glutamatergic Neuron
+98,Glutamatergic Neuron
+99,Glutamatergic Neuron
+100,Glutamatergic Neuron
+101,Glutamatergic Neuron
+102,Glutamatergic Neuron
+103,Glutamatergic Neuron
+104,Glutamatergic Neuron
+105,Glutamatergic Neuron
+106,Glutamatergic Neuron
+107,Glutamatergic Neuron
+108,Glutamatergic Neuron
+109,Glutamatergic Neuron
+110,Glutamatergic Neuron
+111,Glutamatergic Neuron
+112,Glutamatergic Neuron
+113,Glutamatergic Neuron
+114,Glutamatergic Neuron
+115,Glutamatergic Neuron
+116,Glutamatergic Neuron
+117,Glutamatergic Neuron
+118,Glutamatergic Neuron
+119,Glutamatergic Neuron
+120,Glutamatergic Neuron
+121,Glutamatergic Neuron
+122,Glutamatergic Neuron
+123,Glutamatergic Neuron
+124,Glutamatergic Neuron
+125,Glutamatergic Neuron
+126,Glutamatergic Neuron
+127,Glutamatergic Neuron
+128,Glutamatergic Neuron
+129,Glutamatergic Neuron
+130,Glutamatergic Neuron
+131,Glutamatergic Neuron
+132,Glutamatergic Neuron
+133,Glutamatergic Neuron
+134,Glutamatergic Neuron
+135,Glutamatergic Neuron
+136,Glutamatergic Neuron
+137,Glutamatergic Neuron
+138,Glutamatergic Neuron
+139,Glutamatergic Neuron
+140,Glutamatergic Neuron
+141,Glutamatergic Neuron
+142,Glutamatergic Neuron
+143,Glutamatergic Neuron
+144,Glutamatergic Neuron
+145,Glutamatergic Neuron
+146,Glutamatergic Neuron
+147,Glutamatergic Neuron
+148,Glutamatergic Neuron
+149,Glutamatergic Neuron
+150,Glutamatergic Neuron
+151,Glutamatergic Neuron
+152,Glutamatergic Neuron
+153,Glutamatergic Neuron
+154,Glutamatergic Neuron
+155,Glutamatergic Neuron
+156,Glutamatergic Neuron
+157,Glutamatergic Neuron
+158,Glutamatergic Neuron
+159,Glutamatergic Neuron
+160,Glutamatergic Neuron
+161,Glutamatergic Neuron
+162,Glutamatergic Neuron
+163,Glutamatergic Neuron
+164,Glutamatergic Neuron
+165,Glutamatergic Neuron
+166,Glutamatergic Neuron
+167,Glutamatergic Neuron
+168,Glutamatergic Neuron
+169,Glutamatergic Neuron
+170,Glutamatergic Neuron
+171,Glutamatergic Neuron
+172,Glutamatergic Neuron
+173,Glutamatergic Neuron
+174,Glutamatergic Neuron
+175,Glutamatergic Neuron
+176,Glutamatergic Neuron
+177,Glutamatergic Neuron
+178,Glutamatergic Neuron
+179,Glutamatergic Neuron
+180,Glutamatergic Neuron
+181,Glutamatergic Neuron
+182,Glutamatergic Neuron
+183,Glutamatergic Neuron
+184,Glutamatergic Neuron
+185,Glutamatergic Neuron
+186,Glutamatergic Neuron
+187,Glutamatergic Neuron
+188,Glutamatergic Neuron
+189,Glutamatergic Neuron
+190,Glutamatergic Neuron
+191,Glutamatergic Neuron
+192,Glutamatergic Neuron
+193,Glutamatergic Neuron
+194,Glutamatergic Neuron
+195,Glutamatergic Neuron
+196,Glutamatergic Neuron
+197,Glutamatergic Neuron
+198,Glutamatergic Neuron
+199,Glutamatergic Neuron
+200,Glutamatergic Neuron
+201,Glutamatergic Neuron
+202,Glutamatergic Neuron
+203,Glutamatergic Neuron
+204,Glutamatergic Neuron
+205,Glutamatergic Neuron
+206,Glutamatergic Neuron
+207,Glutamatergic Neuron
+208,Glutamatergic Neuron
+209,Glutamatergic Neuron
+210,Glutamatergic Neuron
+211,Glutamatergic Neuron
+212,Glutamatergic Neuron
+213,Glutamatergic Neuron
+214,Glutamatergic Neuron
+215,Glutamatergic Neuron
+216,Glutamatergic Neuron
+217,Glutamatergic Neuron
+218,Glutamatergic Neuron
+219,Glutamatergic Neuron
+220,Glutamatergic Neuron
+221,Glutamatergic Neuron
+222,Glutamatergic Neuron
+223,Glutamatergic Neuron
+224,Glutamatergic Neuron
+225,Glutamatergic Neuron
+226,Glutamatergic Neuron
+227,Glutamatergic Neuron
+228,Glutamatergic Neuron
+229,Glutamatergic Neuron
+230,Glutamatergic Neuron
+231,Glutamatergic Neuron
+232,Glutamatergic Neuron
+233,Glutamatergic Neuron
+234,Glutamatergic Neuron
+235,Glutamatergic Neuron
+236,Glutamatergic Neuron
+237,Glutamatergic Neuron
+238,Glutamatergic Neuron
+239,Glutamatergic Neuron
+240,Glutamatergic Neuron
+241,Glutamatergic Neuron
+242,Glutamatergic Neuron
+243,Glutamatergic Neuron
+244,Glutamatergic Neuron
+245,Glutamatergic Neuron
+246,Glutamatergic Neuron
+247,Glutamatergic Neuron
+248,Glutamatergic Neuron
+249,Glutamatergic Neuron
+250,Glutamatergic Neuron
+251,Glutamatergic Neuron
+252,Glutamatergic Neuron
+253,Glutamatergic Neuron
+254,Glutamatergic Neuron
+255,Glutamatergic Neuron
+256,Glutamatergic Neuron
+257,Glutamatergic Neuron
+258,Glutamatergic Neuron
+259,Glutamatergic Neuron
+260,Glutamatergic Neuron
+261,Glutamatergic Neuron
+262,Glutamatergic Neuron
+263,Glutamatergic Neuron
+264,Glutamatergic Neuron
+265,Glutamatergic Neuron
+266,Glutamatergic Neuron
+267,Glutamatergic Neuron
+268,Glutamatergic Neuron
+269,Glutamatergic Neuron
+270,Glutamatergic Neuron
+271,Glutamatergic Neuron
+272,Glutamatergic Neuron
+273,Glutamatergic Neuron
+274,Glutamatergic Neuron
+275,Glutamatergic Neuron
+276,Glutamatergic Neuron
+277,Glutamatergic Neuron
+278,Glutamatergic Neuron
+279,Glutamatergic Neuron
+280,Glutamatergic Neuron
+281,Glutamatergic Neuron
+282,Glutamatergic Neuron
+283,Glutamatergic Neuron
+284,Glutamatergic Neuron
+285,Glutamatergic Neuron
+286,Glutamatergic Neuron
+287,Glutamatergic Neuron
+288,Glutamatergic Neuron
+289,Glutamatergic Neuron
+290,Glutamatergic Neuron
+291,Glutamatergic Neuron
+292,Glutamatergic Neuron
+293,Glutamatergic Neuron
+294,Glutamatergic Neuron
+295,Glutamatergic Neuron
+296,Glutamatergic Neuron
+297,Glutamatergic Neuron
+298,Glutamatergic Neuron
+299,Glutamatergic Neuron
+300,Glutamatergic Neuron
+301,Glutamatergic Neuron
+302,Glutamatergic Neuron
+303,Glutamatergic Neuron
+304,Glutamatergic Neuron
+305,Glutamatergic Neuron
+306,Glutamatergic Neuron
+307,Glutamatergic Neuron
+308,Glutamatergic Neuron
+309,Glutamatergic Neuron
+310,Glutamatergic Neuron
+311,Glutamatergic Neuron
+312,Glutamatergic Neuron
+313,Glutamatergic Neuron
+314,Glutamatergic Neuron
+315,Glutamatergic Neuron
+316,Glutamatergic Neuron
+317,Glutamatergic Neuron
+318,Glutamatergic Neuron
+319,Glutamatergic Neuron
+320,Glutamatergic Neuron
+321,Glutamatergic Neuron
+322,Glutamatergic Neuron
+323,Glutamatergic Neuron
+324,Glutamatergic Neuron
+325,Glutamatergic Neuron
+326,Glutamatergic Neuron
+327,Glutamatergic Neuron
+328,Glutamatergic Neuron
+329,Glutamatergic Neuron
+330,Glutamatergic Neuron
+331,Glutamatergic Neuron
+332,Glutamatergic Neuron
+333,Glutamatergic Neuron
+334,Glutamatergic Neuron
+335,Glutamatergic Neuron
+336,Glutamatergic Neuron
+337,Glutamatergic Neuron
+338,Glutamatergic Neuron
+339,Glutamatergic Neuron
+340,Glutamatergic Neuron
+341,Glutamatergic Neuron
+342,Glutamatergic Neuron
+343,Glutamatergic Neuron
+344,Glutamatergic Neuron
+345,Glutamatergic Neuron
+346,Glutamatergic Neuron
+347,Glutamatergic Neuron
+348,Glutamatergic Neuron
+349,Glutamatergic Neuron
+350,Glutamatergic Neuron
+351,Glutamatergic Neuron
+352,Glutamatergic Neuron
+353,Glutamatergic Neuron
+354,Glutamatergic Neuron
+355,Glutamatergic Neuron
+356,Glutamatergic Neuron
+357,Glutamatergic Neuron
+358,Glutamatergic Neuron
+359,Glutamatergic Neuron
+360,Glutamatergic Neuron
+361,Glutamatergic Neuron
+362,Glutamatergic Neuron
+363,Glutamatergic Neuron
+364,Glutamatergic Neuron
+365,Glutamatergic Neuron
+366,Glutamatergic Neuron
+367,Glutamatergic Neuron
+368,Glutamatergic Neuron
+369,Glutamatergic Neuron
+370,Glutamatergic Neuron
+371,Glutamatergic Neuron
+372,Glutamatergic Neuron
+373,Glutamatergic Neuron
+374,Glutamatergic Neuron
+375,Glutamatergic Neuron
+376,Glutamatergic Neuron
+377,Glutamatergic Neuron
+378,Glutamatergic Neuron
+379,Glutamatergic Neuron
+380,Glutamatergic Neuron
+381,Glutamatergic Neuron
+382,Glutamatergic Neuron
+383,Glutamatergic Neuron
+384,Glutamatergic Neuron
+385,Glutamatergic Neuron
+386,Glutamatergic Neuron
+387,Glutamatergic Neuron
+388,Glutamatergic Neuron
+389,Glutamatergic Neuron
+390,Glutamatergic Neuron
+391,Glutamatergic Neuron
+392,Glutamatergic Neuron
+393,Glutamatergic Neuron
+394,Glutamatergic Neuron
+395,Glutamatergic Neuron
+396,Glutamatergic Neuron
+397,Glutamatergic Neuron
+398,Glutamatergic Neuron
+399,Glutamatergic Neuron
+400,Glutamatergic Neuron
+401,Glutamatergic Neuron
+402,Glutamatergic Neuron
+403,Glutamatergic Neuron
+404,Glutamatergic Neuron
+405,Glutamatergic Neuron
+406,Glutamatergic Neuron
+407,Glutamatergic Neuron
+408,Glutamatergic Neuron
+409,Glutamatergic Neuron
+410,Glutamatergic Neuron
+411,Glutamatergic Neuron
+412,Glutamatergic Neuron
+413,Glutamatergic Neuron
+414,Glutamatergic Neuron
+415,Glutamatergic Neuron
+416,Glutamatergic Neuron
+417,Glutamatergic Neuron
+418,Glutamatergic Neuron
+419,Glutamatergic Neuron
+420,Glutamatergic Neuron
+421,Glutamatergic Neuron
+422,Glutamatergic Neuron
+423,Glutamatergic Neuron
+424,Glutamatergic Neuron
+425,Glutamatergic Neuron
+426,Glutamatergic Neuron
+427,Glutamatergic Neuron
+428,Glutamatergic Neuron
+429,Glutamatergic Neuron
+430,Glutamatergic Neuron
+431,Glutamatergic Neuron
+432,Glutamatergic Neuron
+433,Glutamatergic Neuron
+434,Glutamatergic Neuron
+435,Glutamatergic Neuron
+436,Glutamatergic Neuron
+437,Glutamatergic Neuron
+438,Glutamatergic Neuron
+439,Glutamatergic Neuron
+440,Glutamatergic Neuron
+441,Glutamatergic Neuron
+442,Glutamatergic Neuron
+443,Glutamatergic Neuron
+444,Glutamatergic Neuron
+445,Glutamatergic Neuron
+446,Glutamatergic Neuron
+447,Glutamatergic Neuron
+448,Glutamatergic Neuron
+449,Glutamatergic Neuron
+450,Glutamatergic Neuron
+451,Glutamatergic Neuron
+452,Glutamatergic Neuron
+453,Glutamatergic Neuron
+454,Glutamatergic Neuron
+455,Glutamatergic Neuron
+456,Glutamatergic Neuron
+457,Glutamatergic Neuron
+458,Glutamatergic Neuron
+459,Glutamatergic Neuron
+460,Glutamatergic Neuron
+461,Glutamatergic Neuron
+462,Glutamatergic Neuron
+463,Glutamatergic Neuron
+464,Glutamatergic Neuron
+465,Glutamatergic Neuron
+466,Glutamatergic Neuron
+467,Glutamatergic Neuron
+468,Glutamatergic Neuron
+469,Glutamatergic Neuron
+470,Glutamatergic Neuron
+471,Glutamatergic Neuron
+472,Glutamatergic Neuron
+473,Glutamatergic Neuron
+474,Glutamatergic Neuron
+475,Glutamatergic Neuron
+476,Glutamatergic Neuron
+477,Glutamatergic Neuron
+478,Glutamatergic Neuron
+479,Glutamatergic Neuron
+480,Glutamatergic Neuron
+481,Glutamatergic Neuron
+482,Glutamatergic Neuron
+483,Glutamatergic Neuron
+484,Glutamatergic Neuron
+485,Glutamatergic Neuron
+486,Glutamatergic Neuron
+487,Glutamatergic Neuron
+488,Glutamatergic Neuron
+489,Glutamatergic Neuron
+490,Glutamatergic Neuron
+491,Glutamatergic Neuron
+492,Glutamatergic Neuron
+493,Glutamatergic Neuron
+494,Glutamatergic Neuron
+495,Glutamatergic Neuron
+496,Glutamatergic Neuron
+497,Glutamatergic Neuron
+498,Glutamatergic Neuron
+499,Glutamatergic Neuron
+500,Glutamatergic Neuron
+501,Glutamatergic Neuron
+502,Glutamatergic Neuron
+503,Glutamatergic Neuron
+504,Glutamatergic Neuron
+505,Glutamatergic Neuron
+506,Glutamatergic Neuron
+507,Glutamatergic Neuron
+508,Glutamatergic Neuron
+509,Glutamatergic Neuron
+510,Glutamatergic Neuron
+511,Glutamatergic Neuron
+512,Glutamatergic Neuron
+513,Glutamatergic Neuron
+514,Glutamatergic Neuron
+515,Glutamatergic Neuron
+516,Glutamatergic Neuron
+517,Glutamatergic Neuron
+518,Glutamatergic Neuron
+519,Glutamatergic Neuron
+520,Glutamatergic Neuron
+521,Glutamatergic Neuron
+522,Glutamatergic Neuron
+523,Glutamatergic Neuron
+524,Glutamatergic Neuron
+525,Glutamatergic Neuron
+526,Glutamatergic Neuron
+527,Glutamatergic Neuron
+528,Glutamatergic Neuron
+529,Glutamatergic Neuron
+530,Glutamatergic Neuron
+531,Glutamatergic Neuron
+532,Glutamatergic Neuron
+533,Glutamatergic Neuron
+534,Glutamatergic Neuron
+535,Glutamatergic Neuron
+536,Glutamatergic Neuron
+537,Glutamatergic Neuron
+538,Glutamatergic Neuron
+539,Glutamatergic Neuron
+540,Glutamatergic Neuron
+541,Glutamatergic Neuron
+542,Glutamatergic Neuron
+543,Glutamatergic Neuron
+544,Glutamatergic Neuron
+545,Glutamatergic Neuron
+546,Glutamatergic Neuron
+547,Glutamatergic Neuron
+548,Glutamatergic Neuron
+549,Glutamatergic Neuron
+550,Glutamatergic Neuron
+551,Glutamatergic Neuron
+552,Glutamatergic Neuron
+553,Glutamatergic Neuron
+554,Glutamatergic Neuron
+555,Glutamatergic Neuron
+556,Glutamatergic Neuron
+557,Glutamatergic Neuron
+558,Glutamatergic Neuron
+559,Glutamatergic Neuron
+560,Glutamatergic Neuron
+561,Glutamatergic Neuron
+562,Glutamatergic Neuron
+563,Glutamatergic Neuron
+564,Glutamatergic Neuron
+565,Glutamatergic Neuron
+566,Glutamatergic Neuron
+567,Glutamatergic Neuron
+568,Glutamatergic Neuron
+569,Glutamatergic Neuron
+570,Glutamatergic Neuron
+571,Glutamatergic Neuron
+572,Glutamatergic Neuron
+573,Glutamatergic Neuron
+574,Glutamatergic Neuron
+575,Glutamatergic Neuron
+576,Glutamatergic Neuron
+577,Glutamatergic Neuron
+578,Glutamatergic Neuron
+579,Glutamatergic Neuron
+580,Glutamatergic Neuron
+581,Glutamatergic Neuron
+582,Glutamatergic Neuron
+583,Glutamatergic Neuron
+584,Glutamatergic Neuron
+585,Glutamatergic Neuron
+586,Glutamatergic Neuron
+587,Glutamatergic Neuron
+588,Glutamatergic Neuron
+589,Glutamatergic Neuron
+590,Glutamatergic Neuron
+591,Glutamatergic Neuron
+592,Glutamatergic Neuron
+593,Glutamatergic Neuron
+594,Glutamatergic Neuron
+595,Glutamatergic Neuron
+596,Glutamatergic Neuron
+597,Glutamatergic Neuron
+598,Glutamatergic Neuron
+599,Glutamatergic Neuron
+600,Glutamatergic Neuron
+601,Glutamatergic Neuron
+602,Glutamatergic Neuron
+603,Glutamatergic Neuron
+604,Glutamatergic Neuron
+605,Glutamatergic Neuron
+606,Glutamatergic Neuron
+607,Glutamatergic Neuron
+608,Glutamatergic Neuron
+609,Glutamatergic Neuron
+610,Glutamatergic Neuron
+611,Glutamatergic Neuron
+612,Glutamatergic Neuron
+613,Glutamatergic Neuron
+614,Glutamatergic Neuron
+615,Glutamatergic Neuron
+616,Glutamatergic Neuron
+617,Glutamatergic Neuron
+618,Glutamatergic Neuron
+619,Glutamatergic Neuron
+620,Glutamatergic Neuron
+621,Glutamatergic Neuron
+622,Glutamatergic Neuron
+623,Glutamatergic Neuron
+624,Glutamatergic Neuron
+625,Glutamatergic Neuron
+626,Glutamatergic Neuron
+627,Glutamatergic Neuron
+628,Glutamatergic Neuron
+629,Glutamatergic Neuron
+630,Glutamatergic Neuron
+631,Glutamatergic Neuron
+632,Glutamatergic Neuron
+633,Glutamatergic Neuron
+634,Glutamatergic Neuron
+635,Glutamatergic Neuron
+636,Glutamatergic Neuron
+637,Glutamatergic Neuron
+638,Glutamatergic Neuron
+639,Glutamatergic Neuron
+640,Glutamatergic Neuron
+641,Glutamatergic Neuron
+642,Glutamatergic Neuron
+643,Glutamatergic Neuron
+644,Glutamatergic Neuron
+645,Glutamatergic Neuron
+646,Glutamatergic Neuron
+647,Glutamatergic Neuron
+648,Glutamatergic Neuron
+649,Glutamatergic Neuron
+650,Glutamatergic Neuron
+651,Glutamatergic Neuron
+652,Glutamatergic Neuron
+653,Glutamatergic Neuron
+654,Glutamatergic Neuron
+655,Glutamatergic Neuron
+656,Glutamatergic Neuron
+657,Glutamatergic Neuron
+658,Glutamatergic Neuron
+659,Glutamatergic Neuron
+660,Glutamatergic Neuron
+661,Glutamatergic Neuron
+662,Glutamatergic Neuron
+663,Glutamatergic Neuron
+664,Glutamatergic Neuron
+665,Glutamatergic Neuron
+666,Glutamatergic Neuron
+667,Glutamatergic Neuron
+668,Glutamatergic Neuron
+669,Glutamatergic Neuron
+670,Glutamatergic Neuron
+671,Glutamatergic Neuron
+672,Glutamatergic Neuron
+673,Glutamatergic Neuron
+674,Glutamatergic Neuron
+675,Glutamatergic Neuron
+676,Glutamatergic Neuron
+677,Glutamatergic Neuron
+678,Glutamatergic Neuron
+679,Glutamatergic Neuron
+680,Glutamatergic Neuron
+681,Glutamatergic Neuron
+682,Glutamatergic Neuron
+683,Glutamatergic Neuron
+684,Glutamatergic Neuron
+685,Glutamatergic Neuron
+686,Glutamatergic Neuron
+687,Glutamatergic Neuron
+688,Glutamatergic Neuron
+689,Glutamatergic Neuron
+690,Glutamatergic Neuron
+691,Glutamatergic Neuron
+692,Glutamatergic Neuron
+693,Glutamatergic Neuron
+694,Glutamatergic Neuron
+695,Glutamatergic Neuron
+696,Glutamatergic Neuron
+697,Glutamatergic Neuron
+698,Glutamatergic Neuron
+699,Glutamatergic Neuron
+700,Glutamatergic Neuron
+701,Glutamatergic Neuron
+702,Glutamatergic Neuron
+703,Glutamatergic Neuron
+704,Glutamatergic Neuron
+705,Glutamatergic Neuron
+706,Glutamatergic Neuron
+707,Glutamatergic Neuron
+708,Glutamatergic Neuron
+709,Glutamatergic Neuron
+710,Glutamatergic Neuron
+711,Glutamatergic Neuron
+712,Glutamatergic Neuron
+713,Glutamatergic Neuron
+714,Glutamatergic Neuron
+715,Glutamatergic Neuron
+716,Glutamatergic Neuron
+717,Glutamatergic Neuron
+718,Glutamatergic Neuron
+719,Glutamatergic Neuron
+720,Glutamatergic Neuron
+721,Glutamatergic Neuron
+722,Glutamatergic Neuron
+723,Glutamatergic Neuron
+724,Glutamatergic Neuron
+725,Glutamatergic Neuron
+726,Glutamatergic Neuron
+727,Glutamatergic Neuron
+728,Glutamatergic Neuron
+729,Glutamatergic Neuron
+730,Glutamatergic Neuron
+731,Glutamatergic Neuron
+732,Glutamatergic Neuron
+733,Glutamatergic Neuron
+734,Glutamatergic Neuron
+735,Glutamatergic Neuron
+736,Glutamatergic Neuron
+737,Glutamatergic Neuron
+738,Glutamatergic Neuron
+739,Glutamatergic Neuron
+740,Glutamatergic Neuron
+741,Glutamatergic Neuron
+742,Glutamatergic Neuron
+743,Glutamatergic Neuron
+744,Glutamatergic Neuron
+745,Glutamatergic Neuron
+746,Glutamatergic Neuron
+747,Glutamatergic Neuron
+748,Glutamatergic Neuron
+749,Glutamatergic Neuron
+750,Glutamatergic Neuron
+751,Glutamatergic Neuron
+752,Glutamatergic Neuron
+753,Glutamatergic Neuron
+754,Glutamatergic Neuron
+755,Glutamatergic Neuron
+756,Glutamatergic Neuron
+757,Glutamatergic Neuron
+758,Glutamatergic Neuron
+759,Glutamatergic Neuron
+760,Glutamatergic Neuron
+761,Glutamatergic Neuron
+762,Glutamatergic Neuron
+763,Glutamatergic Neuron
+764,Glutamatergic Neuron
+765,Glutamatergic Neuron
+766,Glutamatergic Neuron
+767,Glutamatergic Neuron
+768,Glutamatergic Neuron
+769,Glutamatergic Neuron
+770,Glutamatergic Neuron
+771,Glutamatergic Neuron
+772,Glutamatergic Neuron
+773,Glutamatergic Neuron
+774,Glutamatergic Neuron
+775,Glutamatergic Neuron
+776,Glutamatergic Neuron
+777,Glutamatergic Neuron
+778,Glutamatergic Neuron
+779,Glutamatergic Neuron
+780,Glutamatergic Neuron
+781,Glutamatergic Neuron
+782,Glutamatergic Neuron
+783,Glutamatergic Neuron
+784,Glutamatergic Neuron
+785,Glutamatergic Neuron
+786,Glutamatergic Neuron
+787,Glutamatergic Neuron
+788,Glutamatergic Neuron
+789,Glutamatergic Neuron
+790,Glutamatergic Neuron
+791,Glutamatergic Neuron
+792,Glutamatergic Neuron
+793,Glutamatergic Neuron
+794,Glutamatergic Neuron
+795,Glutamatergic Neuron
+796,Glutamatergic Neuron
+797,Glutamatergic Neuron
+798,Glutamatergic Neuron
+799,Glutamatergic Neuron
+800,Glutamatergic Neuron
+801,Glutamatergic Neuron
+802,Glutamatergic Neuron
+803,Glutamatergic Neuron
+804,Glutamatergic Neuron
+805,Glutamatergic Neuron
+806,Glutamatergic Neuron
+807,Glutamatergic Neuron
+808,Glutamatergic Neuron
+809,Glutamatergic Neuron
+810,Glutamatergic Neuron
+811,Glutamatergic Neuron
+812,Glutamatergic Neuron
+813,Glutamatergic Neuron
+814,Glutamatergic Neuron
+815,Glutamatergic Neuron
+816,Glutamatergic Neuron
+817,Glutamatergic Neuron
+818,Glutamatergic Neuron
+819,Glutamatergic Neuron
+820,Glutamatergic Neuron
+821,Glutamatergic Neuron
+822,Glutamatergic Neuron
+823,Glutamatergic Neuron
+824,Glutamatergic Neuron
+825,Glutamatergic Neuron
+826,Glutamatergic Neuron
+827,Glutamatergic Neuron
+828,Glutamatergic Neuron
+829,Glutamatergic Neuron
+830,Glutamatergic Neuron
+831,Glutamatergic Neuron
+832,Glutamatergic Neuron
+833,Glutamatergic Neuron
+834,Glutamatergic Neuron
+835,Glutamatergic Neuron
+836,Glutamatergic Neuron
+837,Glutamatergic Neuron
+838,Glutamatergic Neuron
+839,Glutamatergic Neuron
+840,Glutamatergic Neuron
+841,Glutamatergic Neuron
+842,Glutamatergic Neuron
+843,Glutamatergic Neuron
+844,Glutamatergic Neuron
+845,Glutamatergic Neuron
+846,Glutamatergic Neuron
+847,Glutamatergic Neuron
+848,Glutamatergic Neuron
+849,Glutamatergic Neuron
+850,Glutamatergic Neuron
+851,Glutamatergic Neuron
+852,Glutamatergic Neuron
+853,Glutamatergic Neuron
+854,Glutamatergic Neuron
+855,Glutamatergic Neuron
+856,Glutamatergic Neuron
+857,Glutamatergic Neuron
+858,Glutamatergic Neuron
+859,Glutamatergic Neuron
+860,Glutamatergic Neuron
+861,Glutamatergic Neuron
+862,Glutamatergic Neuron
+863,Glutamatergic Neuron
+864,Glutamatergic Neuron
+865,Glutamatergic Neuron
+866,Glutamatergic Neuron
+867,Glutamatergic Neuron
+868,Glutamatergic Neuron
+869,Glutamatergic Neuron
+870,Glutamatergic Neuron
+871,Glutamatergic Neuron
+872,Glutamatergic Neuron
+873,Glutamatergic Neuron
+874,Glutamatergic Neuron
+875,Glutamatergic Neuron
+876,Glutamatergic Neuron
+877,Glutamatergic Neuron
+878,Glutamatergic Neuron
+879,Glutamatergic Neuron
+880,Glutamatergic Neuron
+881,Glutamatergic Neuron
+882,Glutamatergic Neuron
+883,Glutamatergic Neuron
+884,Glutamatergic Neuron
+885,Glutamatergic Neuron
+886,Glutamatergic Neuron
+887,Glutamatergic Neuron
+888,Glutamatergic Neuron
+889,Glutamatergic Neuron
+890,Glutamatergic Neuron
+891,Glutamatergic Neuron
+892,Glutamatergic Neuron
+893,Glutamatergic Neuron
+894,Glutamatergic Neuron
+895,Glutamatergic Neuron
+896,Glutamatergic Neuron
+897,Glutamatergic Neuron
+898,Glutamatergic Neuron
+899,Glutamatergic Neuron
+900,Glutamatergic Neuron
+901,Glutamatergic Neuron
+902,Glutamatergic Neuron
+903,Glutamatergic Neuron
+904,Glutamatergic Neuron
+905,Glutamatergic Neuron
+906,Glutamatergic Neuron
+907,Microglia
+908,Microglia
+909,Microglia
+910,Microglia
+911,Microglia
+912,Microglia
+913,Microglia
+914,Microglia
+915,Microglia
+916,Microglia
+917,Microglia
+918,Microglia
+919,Microglia
+920,Microglia
+921,Microglia
+922,Microglia
+923,Microglia
+924,Microglia
+925,Microglia
+926,Microglia
+927,Microglia
+928,Microglia
+929,Unclassified
+930,Unclassified
+931,Unclassified
+932,Unclassified
+933,Unclassified
+934,Unclassified
+935,Unclassified
+936,Unclassified
+937,Unclassified
+938,Unclassified
+939,Unclassified
+940,Unclassified
+941,Unclassified
+942,Unclassified
+943,Unclassified
+944,Unclassified
+945,Unclassified
+946,Unclassified
+947,Unclassified
+948,Unclassified
+949,Unclassified
+950,Unclassified
+951,Unclassified
+952,Unclassified
+953,Unclassified
+954,Unclassified
+955,Unclassified
+956,Unclassified
+957,Unclassified
+958,Unclassified
+959,Unclassified
+960,Unclassified
+961,Unclassified
+962,Unclassified
+963,Unclassified
+964,Unclassified
+965,Unclassified
+966,Unclassified
+967,Unclassified
+968,Unclassified
+969,Unclassified
+970,Unclassified
+971,Unclassified
+972,Unclassified
+973,Unclassified
+974,Unclassified
+975,Unclassified
+976,Unclassified
+977,Unclassified
+978,Unclassified
+979,Unclassified
+980,Unclassified
+981,Unclassified
+982,Unclassified
+983,Unclassified
+984,Unclassified
+985,Unclassified
+986,Unclassified
+987,Unclassified
+988,Unclassified
+989,Unclassified
+990,Unclassified
+991,Unclassified
+992,Unclassified
+993,Unclassified
+994,Unclassified
+995,Unclassified
+996,Unclassified
+997,Unclassified
+998,Unclassified
+999,Unclassified
+1000,Unclassified
+1001,Unclassified
+1002,Unclassified
+1003,Unclassified
+1004,Unclassified
+1005,Unclassified
+1006,Unclassified
+1007,Unclassified
+1008,Unclassified
+1009,Unclassified
+1010,Unclassified
+1011,GABA-ergic Neuron
+1012,GABA-ergic Neuron
+1013,GABA-ergic Neuron
+1014,GABA-ergic Neuron
+1015,GABA-ergic Neuron
+1016,GABA-ergic Neuron
+1017,GABA-ergic Neuron
+1018,GABA-ergic Neuron
+1019,GABA-ergic Neuron
+1020,GABA-ergic Neuron
+1021,GABA-ergic Neuron
+1022,GABA-ergic Neuron
+1023,GABA-ergic Neuron
+1024,GABA-ergic Neuron
+1025,GABA-ergic Neuron
+1026,GABA-ergic Neuron
+1027,GABA-ergic Neuron
+1028,GABA-ergic Neuron
+1029,GABA-ergic Neuron
+1030,GABA-ergic Neuron
+1031,GABA-ergic Neuron
+1032,GABA-ergic Neuron
+1033,GABA-ergic Neuron
+1034,GABA-ergic Neuron
+1035,GABA-ergic Neuron
+1036,GABA-ergic Neuron
+1037,GABA-ergic Neuron
+1038,GABA-ergic Neuron
+1039,GABA-ergic Neuron
+1040,GABA-ergic Neuron
+1041,GABA-ergic Neuron
+1042,GABA-ergic Neuron
+1043,GABA-ergic Neuron
+1044,GABA-ergic Neuron
+1045,GABA-ergic Neuron
+1046,GABA-ergic Neuron
+1047,GABA-ergic Neuron
+1048,GABA-ergic Neuron
+1049,GABA-ergic Neuron
+1050,GABA-ergic Neuron
+1051,GABA-ergic Neuron
+1052,GABA-ergic Neuron
+1053,GABA-ergic Neuron
+1054,GABA-ergic Neuron
+1055,GABA-ergic Neuron
+1056,GABA-ergic Neuron
+1057,GABA-ergic Neuron
+1058,GABA-ergic Neuron
+1059,GABA-ergic Neuron
+1060,GABA-ergic Neuron
+1061,GABA-ergic Neuron
+1062,GABA-ergic Neuron
+1063,GABA-ergic Neuron
+1064,GABA-ergic Neuron
+1065,GABA-ergic Neuron
+1066,GABA-ergic Neuron
+1067,GABA-ergic Neuron
+1068,GABA-ergic Neuron
+1069,GABA-ergic Neuron
+1070,GABA-ergic Neuron
+1071,GABA-ergic Neuron
+1072,GABA-ergic Neuron
+1073,GABA-ergic Neuron
+1074,GABA-ergic Neuron
+1075,GABA-ergic Neuron
+1076,GABA-ergic Neuron
+1077,Oligodendrocyte
+1078,Oligodendrocyte
+1079,Oligodendrocyte
+1080,Oligodendrocyte
+1081,Oligodendrocyte
+1082,Oligodendrocyte
+1083,Oligodendrocyte
+1084,Oligodendrocyte
+1085,Oligodendrocyte
+1086,Oligodendrocyte
+1087,Oligodendrocyte
+1088,Oligodendrocyte
+1089,Oligodendrocyte
+1090,Oligodendrocyte
+1091,Oligodendrocyte
+1092,Oligodendrocyte
+1093,Oligodendrocyte
+1094,Oligodendrocyte
+1095,Oligodendrocyte
+1096,Oligodendrocyte
+1097,Oligodendrocyte
+1098,Oligodendrocyte
+1099,Oligodendrocyte
+1100,Oligodendrocyte
+1101,Oligodendrocyte
+1102,Oligodendrocyte
+1103,Oligodendrocyte
+1104,Oligodendrocyte
+1105,Oligodendrocyte
+1106,Oligodendrocyte
+1107,Oligodendrocyte Precursor Cell
+1108,Oligodendrocyte Precursor Cell
+1109,Oligodendrocyte Precursor Cell
+1110,Oligodendrocyte Precursor Cell
+1111,Oligodendrocyte Precursor Cell
+1112,Oligodendrocyte Precursor Cell
+1113,Oligodendrocyte Precursor Cell
+1114,Oligodendrocyte Precursor Cell
+1115,Oligodendrocyte Precursor Cell
+1116,Oligodendrocyte Precursor Cell
+1117,Oligodendrocyte Precursor Cell
+1118,Oligodendrocyte Precursor Cell
+1119,Oligodendrocyte Precursor Cell
+1120,Oligodendrocyte Precursor Cell
+1121,Oligodendrocyte Precursor Cell
+1122,Oligodendrocyte Precursor Cell
+1123,Oligodendrocyte Precursor Cell
+1124,Oligodendrocyte Precursor Cell
+1125,Oligodendrocyte Precursor Cell
+1126,Oligodendrocyte Precursor Cell
+1127,Oligodendrocyte Precursor Cell
+1128,Oligodendrocyte Precursor Cell
+1129,Oligodendrocyte
+1130,Oligodendrocyte
+1131,Oligodendrocyte
+1132,Oligodendrocyte
+1133,Oligodendrocyte
+1134,Oligodendrocyte
+1135,Oligodendrocyte
+1136,Oligodendrocyte
+1137,GABA-ergic Neuron
+1138,GABA-ergic Neuron
+1139,GABA-ergic Neuron
+1140,GABA-ergic Neuron
+1141,GABA-ergic Neuron
+1142,GABA-ergic Neuron
+1143,GABA-ergic Neuron
+1144,GABA-ergic Neuron
+1145,GABA-ergic Neuron
+1146,GABA-ergic Neuron
+1147,GABA-ergic Neuron
+1148,GABA-ergic Neuron
+1149,GABA-ergic Neuron
+1150,GABA-ergic Neuron
+1151,GABA-ergic Neuron
+1152,GABA-ergic Neuron
+1153,GABA-ergic Neuron
+1154,GABA-ergic Neuron
+1155,GABA-ergic Neuron
+1156,GABA-ergic Neuron
+1157,GABA-ergic Neuron
+1158,GABA-ergic Neuron
+1159,GABA-ergic Neuron
+1160,GABA-ergic Neuron
+1161,GABA-ergic Neuron
+1162,GABA-ergic Neuron
+1163,GABA-ergic Neuron
+1164,GABA-ergic Neuron
+1165,GABA-ergic Neuron
+1166,GABA-ergic Neuron
+1167,GABA-ergic Neuron
+1168,GABA-ergic Neuron
+1169,GABA-ergic Neuron
+1170,GABA-ergic Neuron
+1171,GABA-ergic Neuron
+1172,GABA-ergic Neuron
+1173,GABA-ergic Neuron
+1174,GABA-ergic Neuron
+1175,GABA-ergic Neuron
+1176,GABA-ergic Neuron
+1177,GABA-ergic Neuron
+1178,GABA-ergic Neuron
+1179,GABA-ergic Neuron
+1180,GABA-ergic Neuron
+1181,GABA-ergic Neuron
+1182,GABA-ergic Neuron
+1183,GABA-ergic Neuron
+1184,GABA-ergic Neuron
+1185,GABA-ergic Neuron
+1186,GABA-ergic Neuron
+1187,GABA-ergic Neuron
+1188,GABA-ergic Neuron
+1189,GABA-ergic Neuron
+1190,GABA-ergic Neuron
+1191,GABA-ergic Neuron
+1192,GABA-ergic Neuron
+1193,GABA-ergic Neuron
+1194,GABA-ergic Neuron
+1195,GABA-ergic Neuron
+1196,GABA-ergic Neuron
+1197,GABA-ergic Neuron
+1198,GABA-ergic Neuron
+1199,GABA-ergic Neuron
+1200,GABA-ergic Neuron
+1201,GABA-ergic Neuron
+1202,GABA-ergic Neuron
+1203,GABA-ergic Neuron
+1204,GABA-ergic Neuron
+1205,GABA-ergic Neuron
+1206,GABA-ergic Neuron
+1207,GABA-ergic Neuron
+1208,GABA-ergic Neuron
+1209,GABA-ergic Neuron
+1210,GABA-ergic Neuron
+1211,GABA-ergic Neuron
+1212,GABA-ergic Neuron
+1213,GABA-ergic Neuron
+1214,GABA-ergic Neuron
+1215,GABA-ergic Neuron
+1216,GABA-ergic Neuron
+1217,GABA-ergic Neuron
+1218,GABA-ergic Neuron
+1219,GABA-ergic Neuron
+1220,GABA-ergic Neuron
+1221,GABA-ergic Neuron
+1222,GABA-ergic Neuron
+1223,GABA-ergic Neuron
+1224,GABA-ergic Neuron
+1225,GABA-ergic Neuron
+1226,GABA-ergic Neuron
+1227,GABA-ergic Neuron
+1228,GABA-ergic Neuron
+1229,GABA-ergic Neuron
+1230,GABA-ergic Neuron
+1231,GABA-ergic Neuron
+1232,GABA-ergic Neuron
+1233,GABA-ergic Neuron
+1234,GABA-ergic Neuron
+1235,GABA-ergic Neuron
+1236,GABA-ergic Neuron
+1237,GABA-ergic Neuron
+1238,GABA-ergic Neuron
+1239,GABA-ergic Neuron
+1240,GABA-ergic Neuron
+1241,GABA-ergic Neuron
+1242,GABA-ergic Neuron
+1243,GABA-ergic Neuron
+1244,GABA-ergic Neuron
+1245,GABA-ergic Neuron
+1246,GABA-ergic Neuron
+1247,GABA-ergic Neuron
+1248,GABA-ergic Neuron
+1249,GABA-ergic Neuron
+1250,GABA-ergic Neuron
+1251,GABA-ergic Neuron
+1252,GABA-ergic Neuron
+1253,GABA-ergic Neuron
+1254,GABA-ergic Neuron
+1255,GABA-ergic Neuron
+1256,GABA-ergic Neuron
+1257,GABA-ergic Neuron
+1258,GABA-ergic Neuron
+1259,GABA-ergic Neuron
+1260,GABA-ergic Neuron
+1261,GABA-ergic Neuron
+1262,GABA-ergic Neuron
+1263,GABA-ergic Neuron
+1264,GABA-ergic Neuron
+1265,GABA-ergic Neuron
+1266,GABA-ergic Neuron
+1267,GABA-ergic Neuron
+1268,GABA-ergic Neuron
+1269,GABA-ergic Neuron
+1270,GABA-ergic Neuron
+1271,GABA-ergic Neuron
+1272,GABA-ergic Neuron
+1273,GABA-ergic Neuron
+1274,GABA-ergic Neuron
+1275,GABA-ergic Neuron
+1276,GABA-ergic Neuron
+1277,GABA-ergic Neuron
+1278,GABA-ergic Neuron
+1279,GABA-ergic Neuron
+1280,GABA-ergic Neuron
+1281,GABA-ergic Neuron
+1282,GABA-ergic Neuron
+1283,GABA-ergic Neuron
+1284,GABA-ergic Neuron
+1285,GABA-ergic Neuron
+1286,GABA-ergic Neuron
+1287,GABA-ergic Neuron
+1288,GABA-ergic Neuron
+1289,GABA-ergic Neuron
+1290,GABA-ergic Neuron
+1291,GABA-ergic Neuron
+1292,GABA-ergic Neuron
+1293,GABA-ergic Neuron
+1294,GABA-ergic Neuron
+1295,GABA-ergic Neuron
+1296,GABA-ergic Neuron
+1297,GABA-ergic Neuron
+1298,GABA-ergic Neuron
+1299,GABA-ergic Neuron
+1300,GABA-ergic Neuron
+1301,GABA-ergic Neuron
+1302,GABA-ergic Neuron
+1303,GABA-ergic Neuron
+1304,GABA-ergic Neuron
+1305,GABA-ergic Neuron
+1306,GABA-ergic Neuron
+1307,GABA-ergic Neuron
+1308,GABA-ergic Neuron
+1309,GABA-ergic Neuron
+1310,GABA-ergic Neuron
+1311,GABA-ergic Neuron
+1312,GABA-ergic Neuron
+1313,GABA-ergic Neuron
+1314,GABA-ergic Neuron
+1315,GABA-ergic Neuron
+1316,GABA-ergic Neuron
+1317,GABA-ergic Neuron
+1318,GABA-ergic Neuron
+1319,GABA-ergic Neuron
+1320,GABA-ergic Neuron
+1321,GABA-ergic Neuron
+1322,GABA-ergic Neuron
+1323,GABA-ergic Neuron
+1324,GABA-ergic Neuron
+1325,GABA-ergic Neuron
+1326,GABA-ergic Neuron
+1327,GABA-ergic Neuron
+1328,GABA-ergic Neuron
+1329,GABA-ergic Neuron
+1330,GABA-ergic Neuron
+1331,GABA-ergic Neuron
+1332,GABA-ergic Neuron
+1333,GABA-ergic Neuron
+1334,GABA-ergic Neuron
+1335,GABA-ergic Neuron
+1336,GABA-ergic Neuron
+1337,GABA-ergic Neuron
+1338,GABA-ergic Neuron
+1339,GABA-ergic Neuron
+1340,GABA-ergic Neuron
+1341,GABA-ergic Neuron
+1342,GABA-ergic Neuron
+1343,GABA-ergic Neuron
+1344,GABA-ergic Neuron
+1345,GABA-ergic Neuron
+1346,GABA-ergic Neuron
+1347,GABA-ergic Neuron
+1348,GABA-ergic Neuron
+1349,GABA-ergic Neuron
+1350,GABA-ergic Neuron
+1351,GABA-ergic Neuron
+1352,GABA-ergic Neuron
+1353,GABA-ergic Neuron
+1354,GABA-ergic Neuron
+1355,GABA-ergic Neuron
+1356,GABA-ergic Neuron
+1357,GABA-ergic Neuron
+1358,GABA-ergic Neuron
+1359,GABA-ergic Neuron
+1360,GABA-ergic Neuron
+1361,GABA-ergic Neuron
+1362,GABA-ergic Neuron
+1363,GABA-ergic Neuron
+1364,GABA-ergic Neuron
+1365,GABA-ergic Neuron
+1366,GABA-ergic Neuron
+1367,GABA-ergic Neuron
+1368,GABA-ergic Neuron
+1369,GABA-ergic Neuron
+1370,GABA-ergic Neuron
+1371,GABA-ergic Neuron
+1372,GABA-ergic Neuron
+1373,GABA-ergic Neuron
+1374,GABA-ergic Neuron
+1375,GABA-ergic Neuron
+1376,GABA-ergic Neuron
+1377,GABA-ergic Neuron
+1378,GABA-ergic Neuron
+1379,GABA-ergic Neuron
+1380,GABA-ergic Neuron
+1381,GABA-ergic Neuron
+1382,GABA-ergic Neuron
+1383,GABA-ergic Neuron
+1384,GABA-ergic Neuron
+1385,GABA-ergic Neuron
+1386,GABA-ergic Neuron
+1387,GABA-ergic Neuron
+1388,GABA-ergic Neuron
+1389,GABA-ergic Neuron
+1390,GABA-ergic Neuron
+1391,GABA-ergic Neuron
+1392,GABA-ergic Neuron
+1393,GABA-ergic Neuron
+1394,GABA-ergic Neuron
+1395,GABA-ergic Neuron
+1396,GABA-ergic Neuron
+1397,GABA-ergic Neuron
+1398,GABA-ergic Neuron
+1399,GABA-ergic Neuron
+1400,GABA-ergic Neuron
+1401,GABA-ergic Neuron
+1402,GABA-ergic Neuron
+1403,GABA-ergic Neuron
+1404,GABA-ergic Neuron
+1405,GABA-ergic Neuron
+1406,GABA-ergic Neuron
+1407,GABA-ergic Neuron
+1408,GABA-ergic Neuron
+1409,GABA-ergic Neuron
+1410,GABA-ergic Neuron
+1411,GABA-ergic Neuron
+1412,GABA-ergic Neuron
+1413,GABA-ergic Neuron
+1414,GABA-ergic Neuron
+1415,GABA-ergic Neuron
+1416,GABA-ergic Neuron
+1417,GABA-ergic Neuron
+1418,GABA-ergic Neuron
+1419,GABA-ergic Neuron
+1420,GABA-ergic Neuron
+1421,GABA-ergic Neuron
+1422,GABA-ergic Neuron
+1423,GABA-ergic Neuron
+1424,GABA-ergic Neuron
+1425,GABA-ergic Neuron
+1426,GABA-ergic Neuron
+1427,GABA-ergic Neuron
+1428,GABA-ergic Neuron
+1429,GABA-ergic Neuron
+1430,GABA-ergic Neuron
+1431,GABA-ergic Neuron
+1432,GABA-ergic Neuron
+1433,GABA-ergic Neuron
+1434,GABA-ergic Neuron
+1435,GABA-ergic Neuron
+1436,GABA-ergic Neuron
+1437,GABA-ergic Neuron
+1438,GABA-ergic Neuron
+1439,GABA-ergic Neuron
+1440,GABA-ergic Neuron
+1441,GABA-ergic Neuron
+1442,GABA-ergic Neuron
+1443,GABA-ergic Neuron
+1444,GABA-ergic Neuron
+1445,GABA-ergic Neuron
+1446,GABA-ergic Neuron
+1447,GABA-ergic Neuron
+1448,GABA-ergic Neuron
+1449,GABA-ergic Neuron
+1450,GABA-ergic Neuron
+1451,GABA-ergic Neuron
+1452,GABA-ergic Neuron
+1453,GABA-ergic Neuron
+1454,GABA-ergic Neuron
+1455,GABA-ergic Neuron
+1456,GABA-ergic Neuron
+1457,GABA-ergic Neuron
+1458,GABA-ergic Neuron
+1459,GABA-ergic Neuron
+1460,GABA-ergic Neuron
+1461,GABA-ergic Neuron
+1462,GABA-ergic Neuron
+1463,GABA-ergic Neuron
+1464,GABA-ergic Neuron
+1465,GABA-ergic Neuron
+1466,GABA-ergic Neuron
+1467,GABA-ergic Neuron
+1468,GABA-ergic Neuron
+1469,GABA-ergic Neuron
+1470,GABA-ergic Neuron
+1471,GABA-ergic Neuron
+1472,GABA-ergic Neuron
+1473,GABA-ergic Neuron
+1474,GABA-ergic Neuron
+1475,GABA-ergic Neuron
+1476,GABA-ergic Neuron
+1477,GABA-ergic Neuron
+1478,GABA-ergic Neuron
+1479,GABA-ergic Neuron
+1480,GABA-ergic Neuron
+1481,GABA-ergic Neuron
+1482,GABA-ergic Neuron
+1483,GABA-ergic Neuron
+1484,GABA-ergic Neuron
+1485,GABA-ergic Neuron
+1486,GABA-ergic Neuron
+1487,GABA-ergic Neuron
+1488,GABA-ergic Neuron
+1489,GABA-ergic Neuron
+1490,GABA-ergic Neuron
+1491,GABA-ergic Neuron
+1492,GABA-ergic Neuron
+1493,GABA-ergic Neuron
+1494,GABA-ergic Neuron
+1495,GABA-ergic Neuron
+1496,GABA-ergic Neuron
+1497,GABA-ergic Neuron
+1498,GABA-ergic Neuron
+1499,GABA-ergic Neuron
+1500,GABA-ergic Neuron
+1501,GABA-ergic Neuron
+1502,GABA-ergic Neuron
+1503,GABA-ergic Neuron
+1504,GABA-ergic Neuron
+1505,GABA-ergic Neuron
+1506,GABA-ergic Neuron
+1507,GABA-ergic Neuron
+1508,GABA-ergic Neuron
+1509,GABA-ergic Neuron
+1510,GABA-ergic Neuron
+1511,GABA-ergic Neuron
+1512,GABA-ergic Neuron
+1513,GABA-ergic Neuron
+1514,GABA-ergic Neuron
+1515,GABA-ergic Neuron
+1516,GABA-ergic Neuron
+1517,GABA-ergic Neuron
+1518,GABA-ergic Neuron
+1519,GABA-ergic Neuron
+1520,GABA-ergic Neuron
+1521,GABA-ergic Neuron
+1522,GABA-ergic Neuron
+1523,GABA-ergic Neuron
+1524,GABA-ergic Neuron
+1525,GABA-ergic Neuron
+1526,GABA-ergic Neuron
+1527,GABA-ergic Neuron
+1528,GABA-ergic Neuron
+1529,GABA-ergic Neuron
+1530,GABA-ergic Neuron
+1531,GABA-ergic Neuron
+1532,GABA-ergic Neuron
+1533,GABA-ergic Neuron
+1534,GABA-ergic Neuron
+1535,GABA-ergic Neuron
+1536,GABA-ergic Neuron
+1537,GABA-ergic Neuron
+1538,GABA-ergic Neuron
+1539,GABA-ergic Neuron
+1540,GABA-ergic Neuron
+1541,GABA-ergic Neuron
+1542,GABA-ergic Neuron
+1543,GABA-ergic Neuron
+1544,GABA-ergic Neuron
+1545,GABA-ergic Neuron
+1546,GABA-ergic Neuron
+1547,GABA-ergic Neuron
+1548,GABA-ergic Neuron
+1549,GABA-ergic Neuron
+1550,GABA-ergic Neuron
+1551,GABA-ergic Neuron
+1552,GABA-ergic Neuron
+1553,GABA-ergic Neuron
+1554,GABA-ergic Neuron
+1555,GABA-ergic Neuron
+1556,GABA-ergic Neuron
+1557,GABA-ergic Neuron
+1558,GABA-ergic Neuron
+1559,GABA-ergic Neuron
+1560,GABA-ergic Neuron
+1561,GABA-ergic Neuron
+1562,GABA-ergic Neuron
+1563,GABA-ergic Neuron
+1564,GABA-ergic Neuron
+1565,GABA-ergic Neuron
+1566,GABA-ergic Neuron
+1567,GABA-ergic Neuron
+1568,GABA-ergic Neuron
+1569,GABA-ergic Neuron
+1570,GABA-ergic Neuron
+1571,GABA-ergic Neuron
+1572,GABA-ergic Neuron
+1573,GABA-ergic Neuron
+1574,GABA-ergic Neuron
+1575,GABA-ergic Neuron
+1576,GABA-ergic Neuron
+1577,GABA-ergic Neuron
+1578,GABA-ergic Neuron
+1579,GABA-ergic Neuron
+1580,GABA-ergic Neuron
+1581,GABA-ergic Neuron
+1582,GABA-ergic Neuron
+1583,GABA-ergic Neuron
+1584,GABA-ergic Neuron
+1585,GABA-ergic Neuron
+1586,GABA-ergic Neuron
+1587,GABA-ergic Neuron
+1588,GABA-ergic Neuron
+1589,GABA-ergic Neuron
+1590,GABA-ergic Neuron
+1591,GABA-ergic Neuron
+1592,GABA-ergic Neuron
+1593,GABA-ergic Neuron
+1594,GABA-ergic Neuron
+1595,GABA-ergic Neuron
+1596,GABA-ergic Neuron
+1597,GABA-ergic Neuron
+1598,GABA-ergic Neuron
+1599,GABA-ergic Neuron
+1600,GABA-ergic Neuron
+1601,GABA-ergic Neuron
+1602,GABA-ergic Neuron
+1603,GABA-ergic Neuron
+1604,GABA-ergic Neuron
+1605,GABA-ergic Neuron
+1606,GABA-ergic Neuron
+1607,GABA-ergic Neuron
+1608,GABA-ergic Neuron
+1609,GABA-ergic Neuron
+1610,GABA-ergic Neuron
+1611,GABA-ergic Neuron
+1612,GABA-ergic Neuron
+1613,GABA-ergic Neuron
+1614,GABA-ergic Neuron
+1615,GABA-ergic Neuron
+1616,GABA-ergic Neuron
+1617,GABA-ergic Neuron
+1618,GABA-ergic Neuron
+1619,GABA-ergic Neuron
+1620,GABA-ergic Neuron
+1621,GABA-ergic Neuron
+1622,GABA-ergic Neuron
+1623,GABA-ergic Neuron
+1624,GABA-ergic Neuron
+1625,GABA-ergic Neuron
+1626,GABA-ergic Neuron
+1627,GABA-ergic Neuron
+1628,GABA-ergic Neuron
+1629,GABA-ergic Neuron
+1630,GABA-ergic Neuron
+1631,GABA-ergic Neuron
+1632,GABA-ergic Neuron
+1633,GABA-ergic Neuron
+1634,GABA-ergic Neuron
+1635,GABA-ergic Neuron
+1636,GABA-ergic Neuron
+1637,GABA-ergic Neuron
+1638,GABA-ergic Neuron
+1639,GABA-ergic Neuron
+1640,GABA-ergic Neuron
+1641,GABA-ergic Neuron
+1642,GABA-ergic Neuron
+1643,GABA-ergic Neuron
+1644,GABA-ergic Neuron
+1645,GABA-ergic Neuron
+1646,GABA-ergic Neuron
+1647,GABA-ergic Neuron
+1648,GABA-ergic Neuron
+1649,GABA-ergic Neuron
+1650,GABA-ergic Neuron
+1651,GABA-ergic Neuron
+1652,GABA-ergic Neuron
+1653,GABA-ergic Neuron
+1654,GABA-ergic Neuron
+1655,GABA-ergic Neuron
+1656,GABA-ergic Neuron
+1657,GABA-ergic Neuron
+1658,GABA-ergic Neuron
+1659,GABA-ergic Neuron
+1660,GABA-ergic Neuron
+1661,GABA-ergic Neuron
+1662,GABA-ergic Neuron
+1663,GABA-ergic Neuron
+1664,GABA-ergic Neuron
+1665,GABA-ergic Neuron
+1666,GABA-ergic Neuron
+1667,GABA-ergic Neuron
+1668,GABA-ergic Neuron
+1669,GABA-ergic Neuron
+1670,GABA-ergic Neuron
+1671,GABA-ergic Neuron
+1672,GABA-ergic Neuron
+1673,GABA-ergic Neuron
+1674,GABA-ergic Neuron
+1675,GABA-ergic Neuron
+1676,GABA-ergic Neuron
+1677,GABA-ergic Neuron
+1678,GABA-ergic Neuron
+1679,GABA-ergic Neuron
+1680,GABA-ergic Neuron
+1681,GABA-ergic Neuron
+1682,GABA-ergic Neuron
+1683,GABA-ergic Neuron
+1684,GABA-ergic Neuron
+1685,GABA-ergic Neuron
+1686,GABA-ergic Neuron
+1687,GABA-ergic Neuron
+1688,GABA-ergic Neuron
+1689,GABA-ergic Neuron
+1690,GABA-ergic Neuron
+1691,GABA-ergic Neuron
+1692,GABA-ergic Neuron
+1693,GABA-ergic Neuron
+1694,GABA-ergic Neuron
+1695,GABA-ergic Neuron
+1696,GABA-ergic Neuron
+1697,GABA-ergic Neuron
+1698,GABA-ergic Neuron
+1699,GABA-ergic Neuron
+1700,GABA-ergic Neuron
+1701,GABA-ergic Neuron
+1702,GABA-ergic Neuron
+1703,GABA-ergic Neuron
+1704,GABA-ergic Neuron
+1705,GABA-ergic Neuron
+1706,GABA-ergic Neuron
+1707,GABA-ergic Neuron
+1708,GABA-ergic Neuron
+1709,GABA-ergic Neuron
+1710,GABA-ergic Neuron
+1711,GABA-ergic Neuron
+1712,GABA-ergic Neuron
+1713,GABA-ergic Neuron
+1714,GABA-ergic Neuron
+1715,GABA-ergic Neuron
+1716,GABA-ergic Neuron
+1717,GABA-ergic Neuron
+1718,GABA-ergic Neuron
+1719,GABA-ergic Neuron
+1720,GABA-ergic Neuron
+1721,GABA-ergic Neuron
+1722,GABA-ergic Neuron
+1723,GABA-ergic Neuron
+1724,GABA-ergic Neuron
+1725,GABA-ergic Neuron
+1726,GABA-ergic Neuron
+1727,GABA-ergic Neuron
+1728,GABA-ergic Neuron
+1729,GABA-ergic Neuron
+1730,GABA-ergic Neuron
+1731,GABA-ergic Neuron
+1732,GABA-ergic Neuron
+1733,GABA-ergic Neuron
+1734,GABA-ergic Neuron
+1735,GABA-ergic Neuron
+1736,GABA-ergic Neuron
+1737,GABA-ergic Neuron
+1738,GABA-ergic Neuron
+1739,GABA-ergic Neuron
+1740,GABA-ergic Neuron
+1741,GABA-ergic Neuron
+1742,GABA-ergic Neuron
+1743,GABA-ergic Neuron
+1744,GABA-ergic Neuron
+1745,GABA-ergic Neuron
+1746,GABA-ergic Neuron
+1747,GABA-ergic Neuron
+1748,GABA-ergic Neuron
+1749,GABA-ergic Neuron
+1750,GABA-ergic Neuron
+1751,GABA-ergic Neuron
+1752,GABA-ergic Neuron
+1753,GABA-ergic Neuron
+1754,GABA-ergic Neuron
+1755,GABA-ergic Neuron
+1756,GABA-ergic Neuron
+1757,GABA-ergic Neuron
+1758,GABA-ergic Neuron
+1759,GABA-ergic Neuron
+1760,GABA-ergic Neuron
+1761,GABA-ergic Neuron
+1762,GABA-ergic Neuron
+1763,GABA-ergic Neuron
+1764,GABA-ergic Neuron
+1765,GABA-ergic Neuron
+1766,GABA-ergic Neuron
+1767,GABA-ergic Neuron
+1768,GABA-ergic Neuron
+1769,GABA-ergic Neuron
+1770,GABA-ergic Neuron
+1771,GABA-ergic Neuron
+1772,GABA-ergic Neuron
+1773,GABA-ergic Neuron
+1774,GABA-ergic Neuron
+1775,GABA-ergic Neuron
+1776,GABA-ergic Neuron
+1777,GABA-ergic Neuron
+1778,GABA-ergic Neuron
+1779,GABA-ergic Neuron
+1780,GABA-ergic Neuron
+1781,GABA-ergic Neuron
+1782,GABA-ergic Neuron
+1783,GABA-ergic Neuron
+1784,GABA-ergic Neuron
+1785,GABA-ergic Neuron
+1786,GABA-ergic Neuron
+1787,GABA-ergic Neuron
+1788,GABA-ergic Neuron
+1789,GABA-ergic Neuron
+1790,GABA-ergic Neuron
+1791,GABA-ergic Neuron
+1792,GABA-ergic Neuron
+1793,GABA-ergic Neuron
+1794,GABA-ergic Neuron
+1795,GABA-ergic Neuron
+1796,GABA-ergic Neuron
+1797,GABA-ergic Neuron
+1798,GABA-ergic Neuron
+1799,GABA-ergic Neuron
+1800,GABA-ergic Neuron
+1801,GABA-ergic Neuron
+1802,GABA-ergic Neuron
+1803,GABA-ergic Neuron
+1804,GABA-ergic Neuron
+1805,GABA-ergic Neuron
+1806,GABA-ergic Neuron
+1807,GABA-ergic Neuron
+1808,GABA-ergic Neuron
