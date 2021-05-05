@@ -1,6 +1,9 @@
 import numpy as np
+from sklearn.preprocessing import  normalize
 if __name__=="__main__":
     SC_mat = np.load('sc_500.npy')
-    print(SC_mat.shape)
+    SC_mat = normalize(SC_mat,axis=0, norm='l1')
+    print(sum(SC_mat[:,0]))
     ST_mat = np.load('st_500.npy')
-    print(ST_mat.shape)
+    ST_mat = normalize(ST_mat,axis=0, norm='l1')
+    print(ST_mat[0])

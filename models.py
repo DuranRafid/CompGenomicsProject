@@ -27,7 +27,7 @@ class Decoder(nn.Module):
     def forward(self,z):
         z = F.relu(self.fc1(z))
         z = F.relu(self.fc2(z))
-        x = self.fc3(z)
+        x = F.sigmoid(self.fc3(z))
         return x
 
 class VAE(nn.Module):
@@ -50,8 +50,8 @@ class VAE(nn.Module):
         z = self.reparametrize(z_mu, z_logvar)
         z1 = z[:,0].unsqueeze(1)
         z2 = z[:,1].unsqueeze(1)
-        x1 = F.relu(self.decoder1(z1))
-        x2 = F.relu(self.decoder2(z2))
+        x1 = self.decoder1(z1)
+        x2 = self.decoder2(z2)
         sample_topic = x1.view(-1,self.number_of_samples, self.number_of_topics)
         gene_topic = x2.view(-1, self.number_of_topics, self.number_of_genes)
 

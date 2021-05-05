@@ -4,9 +4,13 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 from train import train_network
+from sklearn.preprocessing import normalize
+
 if __name__ == '__main__':
     STMat = np.load('st_500.npy')
+    STMat = normalize(STMat, axis=0, norm='l1')
     SCMat = np.load('sc_500.npy')
+    SCMat = normalize(SCMat, axis=0, norm='l1')
     number_of_genes,number_of_spots = STMat.shape
     number_of_genes1, number_of_cells = SCMat.shape
 
