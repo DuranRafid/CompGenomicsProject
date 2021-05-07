@@ -203,4 +203,7 @@ class SCST():
             for cell in cells:
                 trueSpotComp[self.cellTypeIndices[cell], i] += 1
 
+        # Normalize so each column is a probability distribution
+        trueSpotComp /= trueSpotComp.sum(axis=0)
+
         return(pseudoSpots, trueSpotComp)
