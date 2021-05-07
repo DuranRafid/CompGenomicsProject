@@ -3,6 +3,8 @@
 # Performs various evaluations on the resulting matrix
 import numpy as np
 import math
+#import scipy as sp
+from scipy.stats import entropy
 
 class SpotCellEval:
     def __init__(self, spot_by_topic, topic_by_cell):
@@ -15,12 +17,36 @@ class SpotCellEval:
 
     # Calculates Kl-divergence
     def KLD(self, p,q):
-        return np.sum(np.where(p != 0, p * np.log(p / q), 0))
+        #print(np.log(p/q))
+        #return np.sum(np.where(p != 0, p * np.log(p / q), 0))
+        temp = p
+        for i in range(p.shape[0]):
+            if p[i]!=0:
+                num = p[i] * np.log2(p[i]/q[i])
+                if np.isnan(num):
+                    temp[i] = 0
+                else:
+                    temp[i] = num
+            else:
+                temp[i] = 0
+        return np.sum(temp)
 
     # Calculates JSD metric
-    def JSD(self, p, q): 
-        m = 0.5 * (p + q) 
-        return 0.5 * self.KLD(p, m) + 0.5 * self.KLD(q, m)
+    #def JSD(self, p, q): 
+    #    m = 0.5 * (p + q) 
+    #return 0.5 * self.KLD(p, m) + 0.5 * self.KLD(q, m)
+
+    def JSD(self, p, q, base=np.e):
+        '''
+        Implementation of pairwise `jsd` based on  
+        https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence
+        '''
+        ## convert to np.array
+        #p, q = np.asarray(p), np.asarray(q)
+         ## normalize p, q to probabilities
+        #p, q = p/p.sum(), q/q.sum()
+        m = 1./2*(p + q)
+        return entropy(p,m, base=base)/2. +  entropy(q, m, base=base)/2.
 
     def JSD_dist(self, p, q):
         return np.sqrt(self.JSD(p,q))
@@ -49,17 +75,18 @@ class SpotCellEval:
                     fn += 1
                 elif p[j] == 0 and q[j] > 0:
                     fp += 1
-
+        
+        '''
         accuracy = (tp+tn)/(tp+tn+fp+fn)
         sensitivity = tp/(tp+fn)
-        specificity = tn/(tn+fp)
-        precision = tp/(tp+fp)
-        recall = tp/(tp+fn)
-        F1 = 2*((precision*recall)/(precision + recall))
+        #specificity = tn/(tn+fp)
+        #precision = tp/(tp+fp)
+        #recall = tp/(tp+fn)
+        #F1 = 2*((precision*recall)/(precision + recall))
 
-        '''
-        accuracy = 0
-        sensitivity = 0
+        
+        #accuracy = 0
+        #sensitivity = 0
         specificity = 0
         precision = 0
         recall = 0
@@ -69,6 +96,7 @@ class SpotCellEval:
         quant = np.array([0.25, 0.5, 0.75])
         quantile_jsd = np.quantile(jsd_matrix, quant, axis=0)
 
-        metrics = [tp, tn, fp, fn, accuracy, sensitivity, specificity, precision, recall, F1, quantile_jsd]
+        #metrics = [tp, tn, fp, fn, accuracy, sensitivity, specificity, precision, recall, F1, quantile_jsd]
+        metrics = [tp, tn, fp, fn, quantile_jsd]
 
         return jsd_matrix, metrics
