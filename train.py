@@ -18,8 +18,14 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
     epoch_train_accuracy = []
     epoch_valid_accuracy = []
     min_loss = np.inf
+    #train_loss_val = 0
+    #train_accuracy = 0
+    #valid_loss_val = 0
+    #valid_accuracy = 0
     for epoch in range(num_epochs):
         train_loss_val = 0.0
+        train_accuracy = 0.0
+        valid_accuracy = 0.0
         model.train()
         print("Epoch {}".format(epoch + 1))
         for batch_idx, Mats in enumerate(train_data_loader):
@@ -30,11 +36,15 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
             reconST, gene_topicST, spot_topic, reconSC, gene_topicSC, cell_topic, STZ_mu, STZ_logvar, SCZ_mu, SCZ_logvar = model(STMat, SCMat)
 
             loss = totalloss(STMat, reconST, SCMat, reconSC, STZ_mu, STZ_logvar, SCZ_mu, SCZ_logvar, gene_topicST, gene_topicSC,beta=10)
-            loss.backward()
-            optimizer.step()
+            #loss.backward()
+            #optimizer.step()
             train_loss_val +=  loss.item()
             jsd_matrix, metrics = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
-            train_accuracy = metrics[0]
+            loss = loss - 100*(metrics[0] + metrics[1])/(sum(metrics[0:4]))
+            loss.backward()
+            optimizer.step()
+            train_accuracy += (metrics[0] + metrics[1])/(sum(metrics[0:4]))
+                        
         epoch_train_loss.append(train_loss_val / len(train_data_loader))
         epoch_train_accuracy.append(train_accuracy/len(train_data_loader))
         print('Epoch {}, Training Loss {:.6f}'.format(epoch, epoch_train_loss[epoch]))
@@ -50,13 +60,17 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
             reconST, gene_topicST, spot_topic, reconSC, gene_topicSC, cell_topic, STZ_mu, STZ_logvar, SCZ_mu, SCZ_logvar = model(STMat, SCMat)
 
             loss = totalloss(STMat, reconST, SCMat, reconSC, STZ_mu, STZ_logvar, SCZ_mu, SCZ_logvar, gene_topicST, gene_topicSC,beta=10)
-            loss.backward()
-            optimizer.step()
+            #loss.backward()
+            #optimizer.step()
             valid_loss_val +=  loss.item()
             jsd_matrix, metrics = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
-            valid_accuracy = metrics[0]
+            loss = loss - 100*(metrics[0] + metrics[1])/(sum(metrics[0:4]))
+            loss.backward()
+            optimizer.step()
+            valid_accuracy += (metrics[0] + metrics[1])/(sum(metrics[0:4]))
 
         epoch_valid_loss.append(valid_loss_val / len(test_data_loader))
+        epoch_valid_accuracy.append(valid_accuracy / len(test_data_loader))
         if epoch_valid_loss[epoch]< min_loss:
             print('Validation Loss decreased ({:.6f} --> {:.6f}).  Saving model ...'.format(min_loss,epoch_valid_loss[epoch]))
             # save checkpoint as best model
