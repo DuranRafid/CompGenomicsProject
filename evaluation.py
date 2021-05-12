@@ -16,10 +16,17 @@ class SpotCellEval:
 
     def getSpotByCellType(self, train=True):  # If train is true, use NNLS to minimize residuals
         if train:
-            A = self.topic_by_cell_type.detach().numpy().mean(axis=0)
-            B = self.spot_by_topic.detach().numpy().mean(axis=0).T
-            soln, self.residual = nnls(A, B)
-            return soln
+            Atens = self.topic_by_cell_type.detach().numpy()
+            Btens = self.spot_by_topic.detach().numpy()
+            spotByCellType = torch.zeros(Atens.shape[0], Atens.shape[2], Btens.shape[2])
+            self.residual = 0
+            for i in range(Atens.shape[0]):
+                A = Atens[i, :, :].reshape(-1, Atens.shape[2])
+                B = Btens[i, :, :].reshape(-1, Btens.shape[2]).T
+                for spot in range(B.shape[1]):
+                    spotByCellType[i, :, spot], residual = nnls(A, B[:, spot])
+                    self.residual += residual
+            return spotByCellType
         else:
             return np.dot(self.spot_by_topic.detach().numpy(), self.topic_by_cell_type.detach().numpy())
 
@@ -74,38 +81,38 @@ class SpotCellEval:
         return np.sqrt(self.JSD(p,q))
 
     def test_eval(self, truth_mat):
-        jsd_matrix = np.zeros(shape=(truth_mat.shape[0], 1), dtype=float)
+        jsd_matrix = np.zeros(shape=(truth_mat.shape[0], truth_mat.shape[1], 1), dtype=float)
         tp = 0
         tn = 0
         fp = 0
         fn = 0
-        for i in range(truth_mat.shape[0]):
+        for b in range(truth_mat.shape[0]):
             print(truth_mat.shape)
             p = truth_mat.detach().numpy()
-            p = p[0,:,:]
+            p = p[b,:,:].reshape(-1, p.shape[2])
             #q = self.spot_by_cell_type[i,:]
             q = self.spot_by_cell_type
-            q = q[0,:,0,:]
+            q = q[b,:,:].reshape(-1, q.shape[2])
 
             print(p.shape)
             print(q.shape)
+            for i in range(p.shape[0]):
+                #if  torch.sum(truth_mat[i,:]) > 0:
+                if np.sum(p[i,:]) > 0:
+                    #print(self.JSD(p[i,:],q[i,:]))
+                    jsd_matrix[b,i,0] = self.JSD(p[i,:],q[i,:])
+                else:
+                    jsd_matrix[b,i,0] = 1
 
-            #if  torch.sum(truth_mat[i,:]) > 0:
-            if np.sum(p[i,:]) > 0:
-                #print(self.JSD(p[i,:],q[i,:]))
-                jsd_matrix[i,0] = self.JSD(p[i,:],q[i,:])
-            else:
-                jsd_matrix[i,0] = 1
-
-            for j in range(p.shape[1]):
-                if p[i,j] > 0 and q[i,j] > 0:
-                    tp += 1
-                elif p[i,j] == 0 and q[i,j]==0:
-                    tn += 1
-                elif p[i,j] > 0 and q[i,j] == 0:
-                    fn += 1
-                elif p[i,j] == 0 and q[i,j] > 0:
-                    fp += 1
+                for j in range(p.shape[1]):
+                    if p[i,j] > 0 and q[i,j] > 0:
+                        tp += 1
+                    elif p[i,j] == 0 and q[i,j]==0:
+                        tn += 1
+                    elif p[i,j] > 0 and q[i,j] == 0:
+                        fn += 1
+                    elif p[i,j] == 0 and q[i,j] > 0:
+                        fp += 1
         
         '''
         accuracy = (tp+tn)/(tp+tn+fp+fn)
@@ -125,9 +132,9 @@ class SpotCellEval:
         '''
 
         quant = np.array([0.25, 0.5, 0.75])
-        quantile_jsd = np.quantile(jsd_matrix, quant, axis=0)
+        quantile_jsd = np.quantile(jsd_matrix.mean(axis=0), quant, axis=0)
 
         #metrics = [tp, tn, fp, fn, accuracy, sensitivity, specificity, precision, recall, F1, quantile_jsd]
         metrics = [tp, tn, fp, fn, quantile_jsd]
 
-        return jsd_matrix, metrics
+        return jsd_matrix.mean(axis=0), metrics
