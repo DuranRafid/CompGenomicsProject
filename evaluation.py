@@ -1,6 +1,7 @@
 # Takes in the spot x topic and topic x cell matrices
 # Multiplies the two matrices together to obtain the spot x cell matrix
 # Performs various evaluations on the resulting matrix
+import torch
 import numpy as np
 import math
 #import scipy as sp
@@ -18,13 +19,17 @@ class SpotCellEval:
             return np.dot(self.spot_by_topic, self.topic_by_cell_type)
 
     def convertCellToType(self, labels):
-        num_topics = self.topic_by_cell.shape[0]
-        mat = np.zeros((num_topics, self.num_cell_types))
-        for i in range(num_topics):
-            for j in range(self.num_cell_types):
-                mat[i, j] = np.mean(self.topic_by_cell[labels == j])
-        # Normalize rows to sum to 1
-        mat /= mat.sum(axis=1)
+        batch_size = np.int(self.topic_by_cell.size[0])
+        num_topics = np.int(self.topic_by_cell.shape[2])
+        mat = torch.zeros(batch_size, num_topics, 8)
+        for i in range(batch_size):
+            for j in range(num_topics):
+                sum = 0
+                for k in range(8):
+                    new = np.mean(self.topic_by_cell[i, labels == k, j])
+                    mat[i, j, k] = new
+                    sum += new
+                mat[i, j, :] /= sum
         return mat
 
     # Calculates Kl-divergence
