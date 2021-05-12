@@ -27,7 +27,7 @@ class SpotCellEval:
                 sum = 0
                 for k in range(8):
                     new = torch.mean(self.topic_by_cell[i, labels == k, j])
-                    mat[i, j, k] = new 
+                    mat[i, j, k] = new
                     sum += new
                 mat[i, j, :] /= sum
         return mat
