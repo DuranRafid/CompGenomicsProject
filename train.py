@@ -12,6 +12,7 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = STDeconv(number_of_genes=n_genes, number_of_spots=n_spots, number_of_cells=n_cells, topic=n_topic).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+    labels = np.loadtxt('datasets/cell-type-labels.txt')
     epoch_train_loss = []
     epoch_valid_loss = []
     epoch_train_accuracy = []
@@ -32,7 +33,7 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
             loss.backward()
             optimizer.step()
             train_loss_val +=  loss.item()
-            train_accuracy,_,_ = SpotCellEval(spot_topic, cell_topic).test_eval(Mats[2])
+            train_accuracy,_,_ = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
         epoch_train_loss.append(train_loss_val / len(train_data_loader))
         epoch_train_accuracy.append(train_accuracy/len(train_data_loader))
         print('Epoch {}, Training Loss {:.6f}'.format(epoch, epoch_train_loss[epoch]))
@@ -51,7 +52,7 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
             loss.backward()
             optimizer.step()
             valid_loss_val +=  loss.item()
-            valid_accuracy,_,_ = SpotCellEval(spot_topic, cell_topic).test_eval(Mats[2])
+            valid_accuracy,_,_ = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
 
         epoch_valid_loss.append(valid_loss_val / len(test_data_loader))
         if epoch_valid_loss[epoch]< min_loss:
