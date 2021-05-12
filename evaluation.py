@@ -7,13 +7,25 @@ import math
 from scipy.stats import entropy
 
 class SpotCellEval:
-    def __init__(self, spot_by_topic, topic_by_cell):
+    def __init__(self, spot_by_topic, topic_by_cell, num_cell_types, labels):
         self.spot_by_topic = spot_by_topic
         self.topic_by_cell = topic_by_cell
-        self.spot_by_cell = self.getSpotByCell()
+        self.num_cell_types = num_cell_types
+        self.topic_by_cell_type = self.convertCellToType(labels)
+        self.spot_by_cell_type = self.getSpotByCellType()
 
-    def getSpotByCell(self):
-        return np.dot(self.spot_by_topic, self.topic_by_cell)
+    def convertCellToType(self, labels):
+        num_topics = self.topic_by_cell.shape[0]
+        mat = np.zeros((num_topics, self.num_cell_types))
+        for i in range(num_topics):
+            for j in range(self.num_cell_types):
+                mat[i, j] = np.mean(self.topic_by_cell[labels == j])
+        # Normalize rows to sum to 1
+        mat /= mat.sum(axis=1)
+        return mat
+
+    def getSpotByCellType(self):
+        return np.dot(self.spot_by_topic, self.topic_by_cell_type)
 
     # Calculates Kl-divergence
     def KLD(self, p,q):
