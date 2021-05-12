@@ -16,7 +16,9 @@ class SpotCellEval:
 
     def getSpotByCellType(self, train=True):  # If train is true, use NNLS to minimize residuals
         if train:
-            soln, self.residual = nnls(self.topic_by_cell_type.detach().numpy(), self.spot_by_topic.detach().numpy().T)
+            A = self.topic_by_cell_type.detach().numpy().mean(axis=0)
+            B = self.spot_by_topic.detach().numpy().mean(axis=0).T
+            soln, self.residual = nnls(A, B)
             return soln
         else:
             return np.dot(self.spot_by_topic.detach().numpy(), self.topic_by_cell_type.detach().numpy())
