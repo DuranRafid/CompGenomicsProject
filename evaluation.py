@@ -4,7 +4,7 @@
 import torch
 import numpy as np
 import math
-#import scipy as sp
+from scipy.optimize import nnls
 from scipy.stats import entropy
 
 class SpotCellEval:
@@ -14,8 +14,11 @@ class SpotCellEval:
         self.topic_by_cell_type = self.convertCellToType(labels)
         self.spot_by_cell_type = self.getSpotByCellType()
 
-    def getSpotByCellType(self, train=False):  # If train is true, use NNLS to minimize residuals
-        if train == False:
+    def getSpotByCellType(self, train=True):  # If train is true, use NNLS to minimize residuals
+        if train:
+            soln, self.residual = nnls(self.topic_by_cell_type.detach().numpy(), self.spot_by_topic.detach().numpy().T)
+            return soln
+        else:
             return np.dot(self.spot_by_topic.detach().numpy(), self.topic_by_cell_type.detach().numpy())
 
     def convertCellToType(self, labels):
