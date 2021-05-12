@@ -16,18 +16,18 @@ class SpotCellEval:
 
     def getSpotByCellType(self, train=False):  # If train is true, use NNLS to minimize residuals
         if train == False:
-            return np.dot(self.spot_by_topic, self.topic_by_cell_type)
+            return np.dot(self.spot_by_topic.detach().numpy(), self.topic_by_cell_type.detach().numpy())
 
     def convertCellToType(self, labels):
-        batch_size = np.int(self.topic_by_cell.size[0])
+        batch_size = np.int(self.topic_by_cell.size(0))
         num_topics = np.int(self.topic_by_cell.shape[2])
         mat = torch.zeros(batch_size, num_topics, 8)
         for i in range(batch_size):
             for j in range(num_topics):
                 sum = 0
                 for k in range(8):
-                    new = np.mean(self.topic_by_cell[i, labels == k, j])
-                    mat[i, j, k] = new
+                    new = torch.mean(self.topic_by_cell[i, labels == k, j])
+                    mat[i, j, k] = new 
                     sum += new
                 mat[i, j, :] /= sum
         return mat
@@ -75,22 +75,31 @@ class SpotCellEval:
         fp = 0
         fn = 0
         for i in range(truth_mat.shape[0]):
-            p = truth_mat[i,:]
-            q = self.spot_by_cell[i,:]
+            print(truth_mat.shape)
+            p = truth_mat.detach().numpy()
+            p = p[0,:,:]
+            #q = self.spot_by_cell_type[i,:]
+            q = self.spot_by_cell_type
+            q = q[0,:,0,:]
 
-            if  np.sum(truth_mat[i,:]) > 0:
-                jsd_matrix[i,0] = self.JSD(p,q)
+            print(p.shape)
+            print(q.shape)
+
+            #if  torch.sum(truth_mat[i,:]) > 0:
+            if np.sum(p[i,:]) > 0:
+                #print(self.JSD(p[i,:],q[i,:]))
+                jsd_matrix[i,0] = self.JSD(p[i,:],q[i,:])
             else:
                 jsd_matrix[i,0] = 1
 
-            for j in range(truth_mat.shape[1]):
-                if p[j] > 0 and q[j] > 0:
+            for j in range(p.shape[1]):
+                if p[i,j] > 0 and q[i,j] > 0:
                     tp += 1
-                elif p[j] == 0 and q[j]==0:
+                elif p[i,j] == 0 and q[i,j]==0:
                     tn += 1
-                elif p[j] > 0 and q[j] == 0:
+                elif p[i,j] > 0 and q[i,j] == 0:
                     fn += 1
-                elif p[j] == 0 and q[j] > 0:
+                elif p[i,j] == 0 and q[i,j] > 0:
                     fp += 1
         
         '''
