@@ -33,7 +33,8 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
             loss.backward()
             optimizer.step()
             train_loss_val +=  loss.item()
-            train_accuracy,_,_ = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
+            jsd_matrix, metrics = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
+            train_accuracy = metrics[0]
         epoch_train_loss.append(train_loss_val / len(train_data_loader))
         epoch_train_accuracy.append(train_accuracy/len(train_data_loader))
         print('Epoch {}, Training Loss {:.6f}'.format(epoch, epoch_train_loss[epoch]))
@@ -52,7 +53,8 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
             loss.backward()
             optimizer.step()
             valid_loss_val +=  loss.item()
-            valid_accuracy,_,_ = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
+            jsd_matrix, metrics = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
+            valid_accuracy = metrics[0]
 
         epoch_valid_loss.append(valid_loss_val / len(test_data_loader))
         if epoch_valid_loss[epoch]< min_loss:
