@@ -18,7 +18,7 @@ class SpotCellEval:
         if train:
             Atens = self.topic_by_cell_type.detach().numpy()
             Btens = self.spot_by_topic.detach().numpy()
-            spotByCellType = torch.zeros(Atens.shape[0], Atens.shape[2], Btens.shape[2])
+            spotByCellType = np.zeros((Atens.shape[0], Atens.shape[2], Btens.shape[2]))
             self.residual = 0
             for i in range(Atens.shape[0]):
                 A = Atens[i, :, :].reshape(-1, Atens.shape[2])
