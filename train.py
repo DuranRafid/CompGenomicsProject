@@ -63,8 +63,10 @@ def train_network(learning_rate=0.0001, num_epochs=200, batch_size=2, n_genes = 
             #loss.backward()
             #optimizer.step()
             valid_loss_val +=  loss.item()
-            jsd_matrix, metrics = SpotCellEval(spot_topic, cell_topic, labels).test_eval(Mats[2])
-            loss = loss - 100*(metrics[0] + metrics[1])/(sum(metrics[0:4]))
+            eval = SpotCellEval(spot_topic, cell_topic, labels)
+            jsd_matrix, metrics = eval.test_eval(Mats[2])
+            loss += 100 * eval.residual
+            #loss = loss - 100*(metrics[0] + metrics[1])/(sum(metrics[0:4]))
             loss.backward()
             optimizer.step()
             valid_accuracy += (metrics[0] + metrics[1])/(sum(metrics[0:4]))
